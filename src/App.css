@@ -1,0 +1,346 @@
+.App {
+  margin-top: 40px;
+  display: grid;
+  /* flex-direction: column; */
+  /* gap: 10px; */
+  /* padding: 1rem; */
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: 'center';
+  width: 100%;
+}
+
+.inputB {
+  margin-bottom: 15px;
+  width: 250px;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #555555;
+}
+
+.inputB:focus {
+  outline: none;
+}
+
+.SearchCreate {
+  margin-top: 10px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  align-content: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Create {
+  margin-top: 10px;
+}
+
+.CreateBottom {
+  margin-bottom: 20px;
+}
+
+.TopButton {
+  margin-top: 15px;
+}
+
+.SearchCreate:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.divcont {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: 'center';
+  margin-bottom: 35px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 16px;
+}
+
+th {
+  background-color: rgba(117, 201, 250);
+  width: 100px;
+  height: 30px;
+}
+
+td {
+  background-color: rgba(205, 235, 253);
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 14px;
+}
+
+/* form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+.tablediv {
+  /* width: 100%; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.SearchCreateWITH {
+  margin-top: 15px;
+  display: grid;
+  /* flex-direction: column; */
+  /* gap: 10px; */
+  /* padding: 1rem; */
+  /* flex-wrap: wrap; */
+}
+
+.Link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+
+}
+
+.navLink {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.Link:hover {
+  background-color: #04AA6D;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.SignIn {
+  margin-top: 35px;
+}
+
+.chatContainer {
+  height: 800px;
+  background-color: #ffffff;
+  width: 1600px;
+  border-radius: 20px;
+  /* border: 1px solid #BFBFBF; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intefaceChat {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  /* flex-direction: column; */
+  /* gap: 10px; */
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  margin-right: 10px;
+}
+
+.friends {
+  background-color: rgb(186, 202, 252);
+  height: 680px;
+  width: 30%;
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+
+.chat {
+  background-color: rgb(226, 255, 196);
+  width: 70%;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.logoChat {
+  margin-top: 10px;
+}
+
+.inputChat {
+  width: 420px;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(44, 85, 0);
+  background-color: #ffffff;
+  color: rgb(27, 53, 0);
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.inputChat:focus {
+  outline: none;
+}
+
+.Poisk {
+  margin-top: 0px;
+}
+
+.texth1 {
+  font-size: 18px;
+  font-family: 'Segoe UI';
+  font-style: bold;
+}
+
+.dataStylePoiskEmail {
+  font-size: 14px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divDataStylePoiskEmail {
+  height: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 10px;
+  margin-bottom: 0px;
+  position: relative;
+  /* align-content: center; */
+}
+
+.emailChat {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+
+}
+
+.chatButton {
+  position: absolute;
+  /* top: 10px; */
+  right: 10px;
+  /* top: 5px */
+  margin: 0;
+  padding: 0;
+
+}
+
+.ButtonSama {
+  border: 0px;
+  border-radius: 15px;
+  height: 20px;
+  width: 100px;
+}
+
+
+.messegesChat {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.inputChatMessages {
+  width: 970px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+  padding-left: 20px;
+}
+
+.ButtonMasseges {
+  border: 0px;
+  border-radius: 15px 90px 90px 15px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(77, 77, 77);
+  color: #fff;
+}
+
+.ButtonMassegesdiv {
+  right: 20px;
+}
+
+.handleAddFormSubmit {
+  margin: 0;
+  padding: 0;
+}
+
+/* чат */
+
+.StyleMessege {
+  background-color: #fff;
+  height: auto;
+  width: 25%;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  bottom: 0;
+}
+
+.chatMessages {
+  background-color: rgb(226, 255, 196);
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dicP {
+  overflow-x: hidden !important;
+}
+
+.ToUser {
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+.FromUser {
+  background-color: rgb(179, 218, 255);
+  margin-left: auto;
+  margin-right: 20px;
+}
